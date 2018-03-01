@@ -30,3 +30,8 @@ try:
     s.score = 99
 except AttributeError as e:
     print('AttributeError:', e)
+
+try:
+    s.mark = 66
+except AttributeError as e:
+    print('AttributeError:', e)
